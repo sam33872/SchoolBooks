@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ The\ College\ class\ is\ an\ overview\ class\ that\ is\ used\ \r\n\ to\ run\ the\ whole\ system.\ It\ has\ access\ to\ every\ method\r\n\ and\ has\ control\ over\ students\ leaving\ the\ system.\r\n\ \r\n\ @author\ 184504\r\n\ @version\ 7/12/18\r\n
+comment1.params=s\ b
+comment1.target=College(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ College\r\n\ \r\n\ @param\ s\ <the\ number\ of\ students\ in\ the\ college>,\ b\ <the\ number\ of\ books\ in\ the\ library>\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Main\ function\ for\ running\ outside\ of\ blueJ.\r\n\ \r\n\ @param\ args\ <allows\ the\ user\ to\ enter\ multiple\ inputs>\r\n\ In\ this\ case,\ this\ allows\ the\ user\ to\ enter\ value\ for\ students,\r\n\ textBooks\ and\ steps.\ These\ are\ then\ used\ to\ create\ an\ instance\ of\ \r\n\ the\ college\ class\ and\ run\ a\ method\ within\ a\ set\ amount\ of\ times.\r\n
+comment3.params=
+comment3.target=void\ describe()
+comment3.text=\r\n\ Describes\ the\ current\ state\ of\ the\ college.\r\n
+comment4.params=
+comment4.target=void\ nextStep()
+comment4.text=\r\n\ Tests\ if\ the\ student\ has\ completed\ their\ studies\r\n\ If\ there\ are\ no\ students,\ then\ says\ the\ place\ is\ quiet.\r\n\ If\ the\ student\ has\ finsihed\ then\ they\ are\ removed.\r\n\ If\ they\ haven't\ finsihed\ then\ they\ study.\r\n
+comment5.params=nSteps
+comment5.target=void\ runCollege(int)
+comment5.text=\r\n\ Runs\ the\ college.\r\n\ Runs\ the\ describe\ and\ nextStep\ methods\ a\ inputted\ number\ of\ times,\ which\r\n\ allows\ studys\ to\ study\ and\ eventually\ graduate/leave.\ \r\n\ \r\n\ @param\ nSteps\ <defines\ the\ number\ of\ times\ college\ will\ advance>\r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ Student\ class\ represents\ all\ the\ details\ and\ functions\ \ \r\n\ of\ a\ student\ in\ this\ system.\ It\ store\ details\ such\ as\ name\ and\r\n\ book\ borrowed\ and\ allows\ the\ student\ to\ study.\r\n\ \r\n\ @author\ 184504\r\n\ @version\ 7/12/18\r\n
+comment1.params=name\ library
+comment1.target=Student(java.lang.String,\ Library)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student.\r\n\ \r\n\ @param\ name\ <the\ name\ of\ the\ student>,\ library\ <an\ instance\ of\ the\ Library\ class\ which\ will\ contain\ objects\ of\ the\ TextBook\ class>\r\n
+comment2.params=
+comment2.target=boolean\ finishedStudies()
+comment2.text=\r\n\ Tests\ if\ the\ student\ has\ completed\ their\ studies\r\n\r\n\ @return\ true/false\r\n
+comment3.params=
+comment3.target=void\ study()
+comment3.text=\ \r\n\ Allows\ the\ student\ to\ studies.\r\n\ If\ they\ don't\ have\ a\ textbook,\ they\ get\ a\ new\ one.\r\n\ If\ they\ have\ a\ book\ but\ it\ is\ finished,\ they\ return\ it.\r\n\ If\ they\ have\ a\ book\ with\ chapters\ to\ be\ read,\ they\ read\ a\ chapter.\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\ \r\n\ Describes\ the\ current\ state\ of\ the\ student.\r\n\ If\ they\ don't\ have\ a\ textbook,\ prints\ out\ that\ they\ don't.\r\n\ If\ they\ have\ a\ book\ but\ it\ is\ finished,\ it\ says\ that\ the\ book\ is\ finished.\r\n\ If\ they\ have\ a\ book\ with\ chapters\ to\ be\ read,\ it\ says\ that\ the\ student\ is\ currently\ reading\ the\ book.\r\n
+numComments=5
